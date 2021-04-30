@@ -25,6 +25,7 @@ const Create = () => {
             console.log('new blog added');
             setIsPending(false);
             // history.go(-1);
+            /*back to home page after adding object*/
             history.push('/')
         })
 
